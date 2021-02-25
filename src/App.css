@@ -6,3 +6,58 @@ body{
 ul li {
     margin-left: 14px;
 }
+@media  screen and  (max-width:1200px){
+.deg p {
+    font-size: 12px;
+    font-weight: 600;
+}
+}
+@media  screen and  (max-width:991px){
+h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.headerdet h6{
+        font-size: 12px;
+    }
+    .deg p {
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .details{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    }
+    @media  screen and (max-width:768px){
+        .headercol{
+             justify-content: flex-end;
+        }
+        .headercol3{
+            margin: 0%;
+            padding: 0%;
+        }
+        .deg p{
+            font-size: 8px;
+            font-weight: 800;
+        }
+    }
+    @media  screen and (max-width:638px){
+        .headercol{
+             justify-content: flex-start;
+        }
+        .headercol3{
+            margin: 5%;
+            
+        }
+        .headercol2{
+            margin-left: 151px;
+    margin-top: 16px;
+            
+        }
+        .deg p{
+            font-size: 8px;
+            font-weight: 800;
+        }
+    }

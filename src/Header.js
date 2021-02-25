@@ -11,7 +11,7 @@ const Header = () => {
                 <div className="col-sm-5">
                  <Headercol1 />
                 </div>
-                <div className="col-sm-3">
+                <div className="col-sm-3 headercol2">
                  <div style={{color:'green'}}>
                  <h1>24K</h1>
                  <h6>Posts</h6>
@@ -19,7 +19,7 @@ const Header = () => {
                  </div>
                  </div>
                  
-                 <div className="col-sm-4">
+                 <div className="col-sm-4 headercol3">
                   <Headercol3 />
                 </div>
                 </div>
