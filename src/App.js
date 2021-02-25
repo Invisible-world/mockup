@@ -2,6 +2,7 @@ import Navbar from "./Navbar";
 import './App.css'
 import Header from "./Header";
 import Headerdetails from "./Headerdetails";
+import Bodysection from "./Bodysection";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
    <Navbar />
    <Header />
    <Headerdetails />
+   <Bodysection />
     </>
   );
 }
