@@ -1,9 +1,13 @@
 import PropTypes from 'prop-types'
 
 const Button = ( {text} ) => {
+    
+    const handleCLick = () => {
+      console.log('clicked')
+    }
     return (
         <>
-            <button style={style}>{text}</button>
+            <button style={style} onClick={handleCLick}>{text}</button>
         </>
     )
 }

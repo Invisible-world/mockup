@@ -3,7 +3,7 @@
 const Headercol3 = () => {
     return (
         <>
-        <div>
+        <div >
        <h5>Writer's Highlight</h5><hr></hr>
        <div style={{lineHeight:'1.2px'}} className="deg">
        <p><i className='fa fa-bell-o ' style={{marginRight:'4px'}} >

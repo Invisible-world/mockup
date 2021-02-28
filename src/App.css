@@ -6,6 +6,17 @@ body{
 ul li {
     margin-left: 14px;
 }
+.changeborder{
+    border:none;
+    
+}
+.inputStyle{
+    padding:8px 10px;
+    border-radius:45px;
+}
+
+
+
 @media  screen and  (max-width:1200px){
 .deg p {
     font-size: 12px;
@@ -29,7 +40,18 @@ h3{
         font-size: 12px;
         font-weight: 500;
     }
+    .bodyStyle p{
+font-size: 10px;
+font-weight: 600;
     }
+    }
+    
+    @media screen and (max-width:870px){
+        .inputfield input{
+            left: '40px'
+        }
+    }
+    
     @media  screen and (max-width:768px){
         .headercol{
              justify-content: flex-end;
@@ -42,6 +64,14 @@ h3{
             font-size: 8px;
             font-weight: 800;
         }
+        .bodyStyle p{
+            font-size: 7px;
+            font-weight: 800;
+                }
+                .inputfield input{
+                    left: '30px';
+                    font-size: x-small;
+                }
     }
     @media  screen and (max-width:638px){
         .headercol{
@@ -60,4 +90,10 @@ h3{
             font-size: 8px;
             font-weight: 800;
         }
+    }
+    @media  screen and (max-width:578px){
+.inputfield input{
+    font-size: xx-small;
+    margin-right: 12px;
+}
     }
