@@ -1,6 +1,7 @@
 import { Carddetails } from './Carddetails'
 import { List } from './List'
-
+import { Menuitem } from './Menuitem'
+import {  Trendingdetails } from './Trendingdetails'
 
 const Bodycard = () => {
     return (
@@ -32,7 +33,49 @@ const Bodycard = () => {
                       <p className='text-center'>{list.title}</p>
                   )
               }))}
+      <div className='text-center '>
+        <div className='mt-5'>
+        <h6 style={{textTransform:'uppercase'}}>Become an Editor</h6>
+        <hr style={{width: '50%'}}></hr>
+        <button style={style} >JOIN US</button>
+      </div>
+      <h6 style={{textTransform:'uppercase'}}>Trending TOpics</h6>
+      <hr style={{width: '50%'}}></hr>
+              
       
+              {Trendingdetails.map((detail)=>{
+                return(
+                  
+                  <div className='d-flex ' style={{justifyContent:'center'}}>
+                    
+                    <img src={detail.imgSrc} alt={detail.title} style={{width:'100px',height:'80px'}}></img>
+                    <p className='lead pt-4 pl-2'>{detail.title}</p>
+                    </div>
+                   
+                )
+              })}
+               
+              
+      </div>
+      
+      <hr style={{width: '50%'}}></hr>
+      
+      <div style={{textAlign:'center'}}>
+      {Menuitem.map((item)=>{
+        return(
+          <div className='d-inline-flex ' >
+           
+            <p className='pl-2' >{item.title}</p>
+
+          </div>
+        )
+      })}
+      </div>
+       <hr style={{width: '50%'}}></hr>
+     
+     <div className='text-center'>
+       <p>Copyright @ 2020 opinion of NEpal .<br></br>Powered By-<strong>illionso Technologies</strong></p>
+     </div>
       </div>
 
 
@@ -44,5 +87,13 @@ const Bodycard = () => {
         </>
     )
 }
-
+const style ={
+  padding:'  6px 35px 6px 36px',
+  borderRadius:'0',
+  border:'1px solid green',
+  background:'#fff',
+  color:'green',
+ cursor:'pointer',
+ marginBottom:'2.5rem'
+}
 export default Bodycard
