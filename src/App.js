@@ -3,6 +3,7 @@ import './App.css'
 import Header from "./Header";
 import Headerdetails from "./Headerdetails";
 import Bodysection from "./Bodysection";
+import Bodycard from "./Bodycard";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
    <Header />
    <Headerdetails />
    <Bodysection />
+   <Bodycard/>
+   
     </>
   );
 }

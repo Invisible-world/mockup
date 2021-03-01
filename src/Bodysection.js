@@ -1,15 +1,10 @@
-import {useState} from 'react'
+
 
 import { Bodycontent } from './Bodycontent'
 
+
 const Bodysection = () => {
-    // const [click, setclick] = useState(false)
     
-    // const handleClick = () => {
-       
-    //     setclick(!click);
-    //     console.log(click)
-    // }
     return (
         <>
        <div className=' container  p-2'>
@@ -51,8 +46,20 @@ const Bodysection = () => {
             </div>
             </div>
             <div className="container">
+           <div className='row'>
+               <div className='col-6'>
+           
            <h6 >13 Opinions posted in total</h6>
-           <hr style={{width: '50%',marginLeft: '0px'}}></hr>
+           <hr style={{width: '75%',marginLeft: '0px'}}></hr>
+           </div>
+           <div className='col-6  '>
+               
+               <h6 className='text-center'>Reader's Topic</h6>
+               <hr style={{width: '50%'}}></hr>
+              
+           </div>
+           
+           </div>
            </div>
        
        

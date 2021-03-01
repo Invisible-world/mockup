@@ -1,0 +1,30 @@
+export const List =[
+    {
+    title:'Agriculture',
+    path:'/'
+    },
+    {title:'Poltics',
+    path:'/'
+     },
+    {title:'Tourism',
+     path:'/'
+    },
+    {title:'Information and Technology',
+    path:'/'
+    },
+    {title:'Entertainment',
+    path:'/'  
+    },
+    {title:'Business',
+    path:'/'
+    },
+    {title:'Economics',
+    path:'/'
+    },
+    {title:'Sports',
+    path:'/'
+    },
+    {title:'Experiences',
+    path:'/'
+    }
+]

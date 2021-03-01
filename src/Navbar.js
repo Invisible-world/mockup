@@ -5,7 +5,16 @@ import Notification from './Notification'
 import User from './User'
 
 const Navbar = () => {
-    return (
+   
+ 
+  
+  
+  
+  
+  
+  
+  
+  return (
         <>
         <nav className="navbar navbar-expand-lg navbar-light bg-light ">
   <a className="navbar-brand" href="#"><img alt='logo' 
@@ -17,7 +26,7 @@ const Navbar = () => {
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav ml-auto">
       <li className="nav-item active">
-        <a className="nav-link" href="#"><Button text='post opinion' /></a>
+        <a className="nav-link" href><Button text='post opinion'  /></a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="#"><Notification /></a>  
